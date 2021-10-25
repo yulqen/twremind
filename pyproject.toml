@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "twremind"
+version = "0.1.0"
+description = "Integrate taskwarrior and REMIND"
+authors = ["Matthew Lemon"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fabric = "^2.6.0"
+
+[tool.poetry.dev-dependencies]
+pdbpp = "^0.10.3"
+black = "^21.9b0"
+pytest = "^6.2.5"
+ptpython = "^3.0.20"
+mypy = "^0.910"
+rich = "^10.12.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
